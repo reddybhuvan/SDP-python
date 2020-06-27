@@ -1,0 +1,9 @@
+import random
+
+def myfunction():
+  return 0.1
+
+mylist =[100,1,2,3,30,40,'hai','hello']
+random.shuffle(mylist, myfunction)
+
+print(mylist)

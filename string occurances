@@ -1,0 +1,4 @@
+test_str =input(str("enter a string:"))
+#change the counter letter to know their count
+counter = test_str.count('e')
+print ("Count of e in GeeksforGeeks is : "+ str(counter))
